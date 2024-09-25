@@ -32,14 +32,14 @@
             android:id="@+id/noteContentEditText"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="top"
             android:layout_marginTop="8dp"
             android:ems="10"
-            android:lines="10"
-            android:inputType="textMultiLine"
             android:gravity="top"
-            android:layout_gravity="top"
             android:hint="@string/note_text"
-            android:importantForAutofill="no" />
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:overScrollMode="ifContentScrolls"/>
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

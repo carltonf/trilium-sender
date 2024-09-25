@@ -62,7 +62,9 @@
                     android:inputType="text"
                     android:maxLines="1"
                     android:autofillHints="username"
-                    android:singleLine="true" />
+                    android:singleLine="true"
+                    android:visibility="gone"
+                    />
 
             </com.google.android.material.textfield.TextInputLayout>
 

@@ -69,7 +69,9 @@ class LoginActivity : AppCompatActivity() {
 
         // Store values at the time of the login attempt.
         val triliumAddress = triliumAddressEditText.text.toString()
-        val username = usernameEditText.text.toString()
+        // TODO probably no longer needed
+        // val username = usernameEditText.text.toString()
+        val username = "AnonymousTriliumUser"
         val password = passwordEditText.text.toString()
         val noteLabel = labelEditText.text.toString()
 
